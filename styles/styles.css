@@ -1,0 +1,83 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.container {
+  display: grid;
+}
+
+.banner {
+  width: 60%;
+  height: 100vh;
+  background: rgb(68, 68, 68);
+  color: rgb(199, 199, 199);
+  display: inline-grid;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  align-content: center;
+  justify-content: end;
+}
+
+.banner > * {
+  margin-right: 50px;
+  padding: 5px;
+  text-align: end;
+}
+
+.banner li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.name {
+  font-size: 4em;
+  color: white;
+}
+
+.about {
+  display: inline-grid;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  justify-self: end;
+  align-self: center;
+  width: 40%;
+  font-size: 2em;
+}
+
+.about p {
+  color: rgb(100, 100, 100);
+  margin: 20px 30px;
+}
+
+.about a {
+  color: black;
+}
+
+.about img {
+  width: 50px;
+  justify-self: center;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.about .links {
+  justify-self: center;
+  margin-top: 20px;
+}
