@@ -33,6 +33,7 @@ h3 {
   grid-row: 1 / -1;
   align-content: center;
   justify-content: end;
+  z-index: 1;
 }
 
 .banner > * {
@@ -59,6 +60,18 @@ h3 {
   align-self: center;
   width: 40%;
   font-size: 2em;
+  position: absolute;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    left: 0;
+  }
+  to {
+    left: 60%;
+  }
 }
 
 .about p {
