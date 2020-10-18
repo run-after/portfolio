@@ -216,6 +216,7 @@ li {
 
   .about {
     width: 100%;
+    top: 100px;
   }
 
   @keyframes slidein {
