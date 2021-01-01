@@ -116,12 +116,15 @@ li {
 }
 
 .test {
+  -ms-grid-column-align: center;
   justify-self: center;
 }
 
 .tech {
+  display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   width: 50%;
   -ms-grid-column-align: center;
@@ -213,7 +216,8 @@ li {
 }
 
 .description > * {
-  padding: 10px 0;
+  padding: 5px 0;
+  display: block;
 }
 
 .project-header {
@@ -252,6 +256,7 @@ li {
 .contact-card {
   display: -ms-grid;
   display: grid;
+  grid-auto-flow: column;
   grid-gap: 10px;
   height: 100%;
   width: 50%;
@@ -267,7 +272,8 @@ li {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: space-around;
+  font-size: 0.75em;
 }
 
 .contact-card a {
