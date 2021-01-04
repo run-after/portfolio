@@ -272,7 +272,7 @@ li {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 0.75em;
 }
 
@@ -285,6 +285,8 @@ li {
 }
 .contact-card img {
   width: 50px;
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 @media (max-width: 800px) {
