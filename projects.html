@@ -37,26 +37,26 @@
       
         <ul class="description">
           <li>
-            This is a Facebook clone with a lot of functionality.
+            This is a fullstack Facebook clone with a lot of functionality.
           </li>
           <li>
-            Built using MVC framework with Ruby on Rails, styled with Bootstrap, deployed on Heroku. When you sign up, you have
+            Built using MVC framework with Ruby on Rails, styled with Bootstrap, deployed on Heroku. When the user signs up, they have
             the option to create a new account or login via Facebook.
           </li>
           <li>
-            I generated a mailer to welcome user when they create a new account.
+            This app utilizes a generated mailer to welcome user when they create a new account.
           </li>
           <li>
-            I used Omniauth to allow login via Facebook.
+            Omniauth is utilized to allow login via Facebook.
           </li>
           <li>
-            I used AWS S3 via Active Storage to allow an attachment/update of an avatar photo.
+            AWS S3 via Active Storage is utilized to allow an attachment/update of an avatar photo.
           </li>
           <li>
-            I created a relational database to store users, posts, comments, friend requests, friendships, and likes.
+            A relational database is used to store users, posts, comments, friend requests, friendships, and likes.
           </li>
           <li>
-            You can use this by logging in with:
+            You can try this out by logging in with:
           </li>
           <li>
             Email: 'test@test.com'
@@ -66,7 +66,48 @@
             Or feel free to create an account/login with Facebook!
           </li>
         </ul>
-      
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h2 class="project-tile"><a href="https://run-after.github.io/wheres-waldo/" target="_blank">Where's Waldo?</a></h2>
+        <div class="project-links">
+          <a href="https://github.com/run-after/wheres-waldo" target="_blank">Code</a>
+          <a href="https://run-after.github.io/wheres-waldo/" target="_blank">Live</a>
+        </div>
+      </div>
+      <img src="./media/wheres-waldo.jpg">
+      <ul class="description">
+        <li>
+          This is a fullstack photo tagging app that has you find all given characters in a photo.
+        </li>
+        <li>
+          Built using React functional components on the front-end and Firebase on the back-end, deployed
+          on Github Pages.
+        </li>
+        <li>
+          Created custom CSS with animations and responsive design.
+        </li>
+        <li>
+          This app utilizes Firebase Firestore, Firebase Storage, and Firebase authorization.
+        </li>
+        <li>
+          Once the user begins, a timer is started. The timer begins when the start button is pressed
+           and continues until the final character is found.
+        </li>
+        <li>
+          When the app starts, an anonymous account is generated, their score is placed into the database,
+          then the anonymous account is logged out, and the database is cleaned up.
+        </li>
+        <li>
+          If the user completes the task faster than someone on the top 10 scoreboard, 
+          they are placed onto the scoreboard
+        </li>
+        <li>
+          Once the final character is found, the time taken is calculated from timestamps from the database, so no cheating
+          can take place.
+        </li>
+      </ul>
     </div>
 
     <div class="project">
@@ -86,23 +127,26 @@
           In this project I utilized TDD with Jest.
         </li>
         <li> 
-          Packaged everything with Webpack.
+          Packaged everything with Webpack, deployed on Github Pages.
         </li>
         <li>
           Created custom CSS with animations and responsive design.
         </li>
         <li>
-          Using factory functions, modular design and a lot of event listeners, I created a
+          Using factory functions, modular design and a lot of event listeners, this app is a
           functional game that works well.
         </li>
         <li>
-          I allowed the player to place ships with their mouse. They can click the orientation
-          button to flip between 'x' and 'y', and click to place the ship. I included logic to
+          The player can place ships with their mouse. They can click the orientation
+          button to flip between 'x' and 'y', and click to place the ship. Logic was included to
           not allow ships to overflow off the board, and also not overlap another ship.
         </li>
         <li>
           When placing ships, the squares are highlighted to show where they will be placed, and
           once placed, the ship renders on the board so the player knows where other ships are located.
+        </li>
+        <li>
+          Computer ships are placed randomly.
         </li>
       </ul>
     </div>
@@ -124,10 +168,15 @@
           Built using React hooks, deployed on Github pages.
         </li>
         <li>
-          Play by clicking each card only once. If you select the same card twice, your score will go to 0 and you will get an alert stating that you selected a card twice.
+          Created custom CSS with animations and responsive design.
         </li>
         <li>
-          I use event listeners to listen for a click on each card, modify state to ackowledge that this card has been chosen, then each click checks whether that card has been selected yet or not.
+          Play by clicking each card only once. If player selects the same card twice, 
+          their score will go to 0 and they will get an alert stating that they selected a card twice.
+        </li>
+        <li>
+          Event listeners were used to listen for a click on each card, modify state to ackowledge that 
+          this card has been chosen, then each click checks whether that card has been selected yet or not.
         </li>
       </ul>
     </div>
@@ -146,8 +195,10 @@
           A ToDo list.
         </li>
         <li>
-          In this project, I created a TO DO list using HTML/CSS/JavaScript and webpack.
-          I wrote the code in modules so that I could write clean, maintainable code.
+          A vanilla JavaScript, modular app, packaged with Webpack, deployed on Github Pages.
+        </li>
+        <li>
+          Custom CSS with animations and responsive design.
         </li>
         <li>
           All tasks/projects are saved locally using LocalStorage.
