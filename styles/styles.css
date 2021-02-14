@@ -289,6 +289,17 @@ li {
   justify-self: center;
 }
 
+@media (max-width: 1300px) {
+  .project {
+    width: 95%;
+  }
+
+  .intro {
+    width: 95%;
+    text-align: center;
+  }
+}
+
 @media (max-width: 800px) {
   .container {
     grid-auto-flow: row;
